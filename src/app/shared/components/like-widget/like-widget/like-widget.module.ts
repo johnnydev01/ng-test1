@@ -12,6 +12,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   imports: [
     CommonModule,
     FontAwesomeModule
-  ]
+  ],
+  exports: [LikeWidgetComponent]
 })
 export class LikeWidgetModule { }
